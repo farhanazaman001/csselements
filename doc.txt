@@ -1,0 +1,44 @@
+Non Semantic Elements:- Traditionally, developers have implemented non-semantic elements with a class attribute to define the structure and express the meaning of content. It tells nothing about its content. The element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
+1.	 <div> 
+2.	 <span>
+Example:
+1.	<div class="article">
+2.	  <div class="header"
+3.	        <h1>My blog post</h1>
+4.	        <p>An example using divs with classes instead of the new elements.</p>
+5.	      </div>
+6.	      <!-- ... content ... -->
+7.	  </div>
+
+Semantic Elements:- It introduces meaning to the web page rather than just presentation.
+1.	<article>         It defines an article in the document
+2.	<aside>          It defines content aside from the page content
+3.	<bdi>              It defines a part of text that might be formatted in a different direction from other text
+4.	<details>        It defines additional details that the user can view or hide
+5.	<dialog>         It defines a dialog box or window
+6.	<figcaption>   It defines a caption for a <figure> element
+7.	<figure>         It defines self-contained content, like illustrations, diagrams, photos, code listings, etc.
+8.	<footer>         It defines a footer for the document or a section
+9.	<header>       It defines a header for the document or a section
+10.	<main>          It defines the main content of a document
+11.	<mark>          It defines marked or highlighted text
+12.	<menuitem>   It defines a menu item that the user can invoke from a popup menu
+13.	<meter>         It defines a scalar measurement within a known range
+14.	<nav>            It defines navigation links in the document
+15.	<progress>       It defines the progress of a task
+16.	<rp>               It defines what to show in browsers that do not support ruby annotations
+17.	<rt>                It defines an explanation/pronunciation of characters 
+18.	<ruby>           It defines a ruby annotation 
+19.	<section>      It defines a section in the document
+20.	<summary>   It defines a visible heading for a <details> element 
+21.	<time>           It defines a date/time
+22.	<wbr>            It defines a possible line-break
+Example:
+1.	 <article>
+2.	          <header>
+3.	            <h1>My blog post</h1>
+4.	            <p>The same article but switched to the new elements.</p>
+5.	          </header>
+6.	          <!-- ... content ... -->
+7.	         </article>
+

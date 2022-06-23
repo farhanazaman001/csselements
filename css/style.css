@@ -1,0 +1,77 @@
+body{
+	background-image: url(../images/rainyday.jpg);
+	background-size: cover;
+
+}
+
+h2{
+	border-style: ridge;
+	color: tomato;
+	letter-spacing: -2px;
+
+}
+
+h3{
+	margin: 30px;
+	border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+h4{
+	border: 5px solid gray;
+	text-align: center;
+	font-size: 16px;
+	top: 100px;
+	margin-top: 200px;
+
+}
+.box{
+	position: relative;
+	border: 4px solid gray;
+	width: 500px;
+	height: 500px;
+	left: 100px;
+	top: 100px;
+}
+.one{
+	background-color: red;
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+}
+.two{
+	background-color: green;
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	top: 60px;
+	left: 60px;
+	z-index: 2;
+}
+.three{
+	background-color: yellow;
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	top: 110px;
+	left: 110px;
+	z-index: 3;
+}
+.bird{
+	border: 5px solid red;
+	width: 600px;
+	height: 600px;
+	overflow: auto;
+	position: relative;
+	top: 100px;
+	left: 200px;
+}
+.bird img{
+	position: absolute;
+	left: 450px;
+	top: 400px;
+	width: 200px;
+}
